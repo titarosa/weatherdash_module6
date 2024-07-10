@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: #f0f0f0; 
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    max-width: 300px; 
+    margin-right: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.weather-info-container {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    color: #13293d; 
+    text-align: left;
+}
+
+.weather-card {
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 5px;
+    flex: 0 0 300px;
+    margin: 10px;
+    text-align: center;
+    color: #070707; 
+}
+
+
+.forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.forecast-card {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 5px;
+    flex: 0 0 120px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 10px;
+    text-align: center;
+    background-color: hsl(210, 83%, 82%);
+    color: #070707; 
+    justify-content: center;
+}
+
+.search, .search-history {
+    width: 170%;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search h3, .search-history h3 {
+    margin-bottom: 10px;
+}
+
+#cityInput {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#getWeatherBtn {
+    padding: 10px 40px;
+    background-color: #13293d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#getWeatherBtn:hover {
+    background-color: #0e1c29;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center text */
+}
+
+#historyList li {
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#historyList li:hover {
+    background-color: #e0e0e0;
+}
+
