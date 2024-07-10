@@ -11,7 +11,7 @@ Welcome to the Weather Dashboard project! This web application fetches current w
 
 The following animation demonstrates the application functionality:
 
-* ![A user adds a blog through a form, then the post appears on the following page.](./Assets/Weather Dashboard.png)
+* ![A user adds a blog through a form, then the post appears on the following page.](./Assets/weather-dashboard.png)
 
 
 **Weather Dashboard**
