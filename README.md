@@ -1,4 +1,4 @@
-**Weather Dashboard** 🌞 🌧️
+## Weather Dashboard 🌞 🌧️
 
 Welcome to the Weather Dashboard project! This web application fetches current weather and 5-day forecasts for cities using the OpenWeatherMap API. It allows users to search for cities, view current weather conditions, and see forecasts for the next 5 days.
 
