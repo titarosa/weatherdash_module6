@@ -35,9 +35,11 @@ header {
 
 .main-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
+
 }
 
 .weather-info-container {
@@ -46,6 +48,7 @@ header {
     margin-bottom: 20px;
     color: #13293d; 
     text-align: left;
+
 }
 
 .weather-card {
@@ -56,6 +59,7 @@ header {
     margin: 10px;
     text-align: center;
     color: #070707; 
+   
 }
 
 

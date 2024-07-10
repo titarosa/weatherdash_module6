@@ -1,9 +1,3 @@
-//import * as dotenv from 'dotenv';
-//dotenv.config();
-
-//const apiKey = process.env.OPENWEATHER_API_KEY;
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const apiKey = '3a0638f327f17df983c673c21bbe04e4'; 
 
