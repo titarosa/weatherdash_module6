@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const apiKey = '3a0638f327f17df983c673c21bbe04e4'; 
+    const apiKey = '247f40aea732c431a7e997790c482f15'; 
 
     // Button to get weather and forecast
     const getWeatherBtn = document.getElementById('getWeatherBtn');
